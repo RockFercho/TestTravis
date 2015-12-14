@@ -1,0 +1,20 @@
+# Output directories
+build/
+out/
+target/
+
+# IntelliJ IDEA files
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Log directory
+logs/
+
+# Gradle
+.gradle/
+
+# Java class files
+*.class
+
