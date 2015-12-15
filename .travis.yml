@@ -1,1 +1,8 @@
 language: groovy
+
+notifications:
+    recipients:
+        - fernando.hurtado@jalasoft.com
+    email:
+        on_success: change
+        on_failure: always
