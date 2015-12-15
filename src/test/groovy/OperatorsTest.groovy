@@ -35,6 +35,6 @@ class OperatorsTest extends Specification {
         expect:
         operator == operators.literal(symbol)
         where:
-        operator = "others"
+        operator = "otherss"
     }
 }
