@@ -6,6 +6,20 @@ apply plugin: 'java'
 
 sourceCompatibility = 1.5
 
+sourceSets {
+    main {
+        groovy {
+            srcDirs = ['src/groovy']
+        }
+    }
+
+    test {
+        groovy {
+            srcDirs = ['test/groovy']
+        }
+    }
+}
+
 repositories {
     mavenCentral()
 }
